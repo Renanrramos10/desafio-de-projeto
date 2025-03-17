@@ -17,15 +17,15 @@ switch (xp > 2001 && xp <5000) {
           break;
         case false:
             if(xp > 5001 && xp < 7000){
-                console.log( frase[0] + nome + frase[1] + "Ouro")
+                 console.log( frase[0] + nome + frase[1] + "Ouro")
             }
             else if (xp > 7001 && xp < 8000){
-                    console.log( frase[0] + nome + frase[1] + "Platina")
+                 console.log( frase[0] + nome + frase[1] + "Platina")
             }
-                else if (xp > 8001 && xp < 9000)
-          console.log( frase[0] + nome + frase[1] + "Ascendente")
+            else if (xp > 8001 && xp < 9000)
+                 console.log( frase[0] + nome + frase[1] + "Ascendente")
           break;
-    default:
+        default:
 }
 if(xp > 9001 && xp < 10000){
     console.log( frase[0] + nome + frase[1] + "Imortal")
